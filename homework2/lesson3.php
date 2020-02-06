@@ -3,16 +3,16 @@
     $dsn = 'mysql:host=localhost;dbname=news';
     $db_user = 'root';
     $password = '';
-    
     $connection = new PDO($dsn, $db_user, $password);
+    
     $title=$_POST["title"];
     $short=$_POST["short"];
     $content=$_POST["content"];
-     $photo=$_FILES["photo"];
-    
-    $name=uniqid();
-    $full_path='uploads/'.$name.'.jpg';
-    move_uploaded_file($photo["tmp_name"], $full_path);
+    $image=$_FILES["image"];
+   
+    $names=uniqid();
+    $full_path='photos/'.$names.'.jpg';
+    move_uploaded_file($image["tmp_name"], $full_path);
     
     // $insert = $connection
     // ->prepare("INSERT INTO `new`(`Title`, `Short`, `Content`, `Image`, `Time`)
@@ -26,6 +26,5 @@
     //         }
     $insert = "INSERT INTO `new`(`Title`, `Short`, `Content`, `Image`, `Time`)
      VALUES ('$title', '$short', '$content', '$full_path', NOW())";
-          $connection->exec($insert);
-          $connection = null;
+      $connection->exec($insert);
 ?>
