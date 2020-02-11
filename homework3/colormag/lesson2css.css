@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+	  background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    padding-top: 0px;
+}
+
+h1 {
+   color: #fff; 
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+   padding-top: 30px;
+   font-size: 100px; 
+   font-weight: 700;
+   text-align: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   margin: 0px;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 965px;
+    height: 450px;
+    padding:30px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    overflow: hidden; 
+}
+
+textarea{
+	  background: rgba(0, 0, 0, 0.4); 
+    width: 894px;
+    height: 110px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.nameinput, .emailinput {
+    width: 894px;
+    height: 48px;
+    border: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input.nameinput {
+	  background: rgba(0, 0, 0, 0.4); 
+	  padding-left: 45px;
+}
+
+input.emailinput {
+	  background: rgba(0, 0, 0, 0.4);
+	  padding-left: 45px;
+}
+
+input.message {
+	  background: rgba(0, 0, 0, 0.4);
+	  padding-left: 45px;
+}
+
+select.indent {
+	  padding-left: 45px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+
+input:focus, textarea:focus { 
+	  background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
+	  overflow: hidden; 
+}
+
+.btn {
+	border: none;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  width: 200px;
+  height: 48px;
+	color: #000;
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: 700;
+	position: relative;
+  outline: none;
+  box-shadow: 0 6px #cecece;
+  border-radius: 5px;
+  float: right;
+  margin-right: 6px;
+}
+
+.btn:hover {
+	background: #fff;
+  outline: none;
+  box-shadow: 0 4px #cecece;
+	top: 2px;
+}
+
+.btn:active {
+	background: #fff;
+  outline: none;
+  box-shadow: 0 0 #cecece;
+	top: 6px;
+}
+[type="file"] {
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  [type="file"] + label {
+    background: #230B47;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+      font-family: 'Poppins', sans-serif;
+      font-size: inherit;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    outline: none;
+    padding: 1rem 50px;
+    position: relative;
+    transition: all 0.3s;
+    vertical-align: middle;
+    }

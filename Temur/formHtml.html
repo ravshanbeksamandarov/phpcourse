@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="formCss.css">
+</head>
+<div class="container">  
+    <form id="contact" action="connect_mysql.php" method="post" enctype="multipart/form-data">
+      <h3>Connect MySQL Form</h3>
+      <fieldset>
+        <input placeholder="Title of news" name="title" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Short text of the news" name="short" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your news here...." name="content" tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <input type="file" name="photo" id="file" accept=".jpg, .jpeg, .png"/>
+        <label for="file" />choose a photo</label>
+        <br>
+        <input type="image" src="photo.png" alt="" height="100px" width="100px">
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+  </div>
+</html>
