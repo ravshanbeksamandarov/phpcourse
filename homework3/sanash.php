@@ -1,6 +1,6 @@
 <?php
 
-    include 'mysql.php';
+    //include 'mysql.php';
     // include 'lesson3.php';
     $coll=$_GET['id'];
     foreach($views as $value)

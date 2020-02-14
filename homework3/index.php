@@ -1,6 +1,5 @@
 <?php
-     include 'mysql.php';
-    //include 'sanash.php';
+     include 'mysql.php';     
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -74,14 +73,14 @@
             <div class="single_stuff wow fadeInDown">
              <div class="single_stuff_img"> <a href="#"><img src="<?=$view['Image']?>" alt=""></a></div>
               <div class="single_stuff_article">
-                <div class="single_sarticle_inner"> <a class="stuff_category" href="#">Technology</a>
-                  <div class="stuff_article_inner"> <span class="stuff_date">Nov <strong>17</strong></span>
-                    <h2><a href="pages/single.html">Duis quis erat non nunc fringilla</a></h2>
-                    <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula...</p>
+                <div class="single_sarticle_inner"> <a class="stuff_category" href="single.php?id=<?=$view['id']?>"><h3>Batafsil</h3></a>
+                <div class="stuff_article_inner"><?=date_format(date_create($view['Time']),'<b>H:i</b> d/m/Y')?>
+                    <h2><?=$view['Title']?></h2>
+                    <p><?=$view['Short']?></p>
                     <div>
                         <ul>
-                          <li><i class="glyphicon glyphicon-comment"></i>   Comments</li>
-                          <li><i class="glyphicon glyphicon-eye-open"></i></li>
+                          <!-- <li><i class="glyphicon glyphicon-comment"></i>   Comments</li> -->
+                          <li><i class="glyphicon glyphicon-eye"></i><?=$view['count']?></li>
                         </ul>
                     </div>
                   </div>
