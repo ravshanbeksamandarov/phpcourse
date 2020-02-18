@@ -8,9 +8,9 @@
                 <h3 class="mt-4 mb-4 text-center text-uppercase text-primary">Maqolalar</h3>
             </div>
             <?php foreach ($custs as $cust): ?>
-            <div class="col-lg-3 col-xs-12 col-sm-6 col-md-4" style="margin-left: 70px">
+            <div class="col-lg-3 col-xs-12 col-sm-6 col-md-4">
                 <div class="card">
-                    <img src="home3/<?=$cust['Image']?>" class="card-img-top" alt="">
+                    <img src="admin/<?=$cust['Image']?>" class="card-img-top" alt="" style="height: 200px">
                     <div class="card-body">
                         <h5 class="card-title"><?=$cust['Title']?></h5>
                         <p class="card-text"><?=$cust['Short']?></p>

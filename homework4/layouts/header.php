@@ -19,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Bosh sahifa <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Bosh sahifa </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.php">Biz haqimizda</a>
+                    <a class="nav-link" href="#">Ma'lumot qo'shish</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Aloqa</a>

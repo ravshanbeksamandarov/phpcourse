@@ -5,7 +5,7 @@ include 'app/connection.php';
       // ->query("SELECT * FROM `new` ORDER BY `id` DESC LIMIT 3");
         //    $views = $query->fetchAll();
 
-      $limit = 3;
+      $limit = 4;
       $page = $_GET['id'];
       $start = ($page - 1) * $limit;
       $result = $connection->query("SELECT * FROM new ORDER BY id DESC LIMIT $start, $limit");

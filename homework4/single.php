@@ -24,13 +24,13 @@
  
         <h2><?=$content['Title']?></h2>
         <h2><?=$content['Short']?></h2>
-        <img text-align='center' src="home3/<?=$content['Image']?>" alt="">            
+        <img text-align='center' src="admin/<?=$content['Image']?>" alt="">            
         <h2><?=$content['Content']?></h2>
              
 </section>
 <footer id="footer">
   
-        <p class="pull-left">Copyright &copy; 2014 ColorMag</p>
+        <p class="pull-left">Ravshanbek &copy; 2020 </p>
         <p class="pull-right">Developed By WpFreeware</p>
         
 </footer>

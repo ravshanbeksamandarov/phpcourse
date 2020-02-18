@@ -20,10 +20,7 @@
             </a>
           </li>
         </ul>
-      </nav>
-              <!-- <footer class="text-center">
-                  Mualliflik huquqi himoyalangan &copy; <?= date('Y') ?>
-              </footer> -->
+          </nav>
           </div>
       <!-- SCRIPTS -->
       <script src="assets/js/jquery.js"></script>

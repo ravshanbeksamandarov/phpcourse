@@ -1,8 +1,8 @@
 <?php
 
-    include 'connection.php';
-    
-    if (isset($_GET['key'])) {
+     include 'connection.php';
+
+    if (!empty($_GET['key'])) {
         $key = $_GET['key'];
         $key = '%'.trim($key).'%';
         // $query = $connection->query('SELECT * FROM `news` WHERE `title` LIKE "%'.$key.'%"');
@@ -18,7 +18,7 @@
         $query->execute([':key' => $key]);
                 
         
-        $views = $query->fetchAll();
+        $custs = $query->fetchAll();
     }
 
     
